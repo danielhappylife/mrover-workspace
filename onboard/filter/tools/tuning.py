@@ -79,7 +79,8 @@ if __name__ == "__main__":
 
     true_path = csv_to_inputs(sys.argv[1])
     filtered_path = csv_to_inputs(sys.argv[2])
-    #Testing cases by altering filtered path
+    #Testing cases by altering filtered path 
+    #(use the true_path csv file for both inputs when runing the code)
     #for i in range(10):
     #    print(evaluate_fit(true_path, alter_fit(filtered_path, [meters2long(1, true_path[1][0]),
     #                                                            meters2lat(1), 0, 0])))
